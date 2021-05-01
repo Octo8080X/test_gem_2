@@ -5,20 +5,13 @@ require_relative "lib/test_gem_2/version"
 Gem::Specification.new do |spec|
   spec.name          = "test_gem_2"
   spec.version       = TestGem2::VERSION
-  spec.authors       = ["Write your name"]
-  spec.email         = ["Write your email address"]
+  spec.authors       = ["Octo8080X"]
 
   spec.summary       = "Write a short summary, because RubyGems requires one."
   spec.description   = "Write a longer description or delete this line."
-  spec.homepage      = "https://ccbaxy.xyz"
+  spec.homepage      = "https://github.com/Octo8080X/test_gem_2"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
-
-  # spec.metadata["allowed_push_host"] = "Set to 'http://mygemserver.com'"
-
-  spec.metadata["homepage_uri"] = "https://ccbaxy.xyz"
-  spec.metadata["source_code_uri"] = "https://ccbaxy.xyz"
-  spec.metadata["changelog_uri"] = "https://ccbaxy.xyz"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
